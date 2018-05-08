@@ -1,0 +1,191 @@
+.login-sec {
+    height: 101vh;
+    overflow: hidden;
+}
+
+.login_bg {
+    background-image: url('../../../assets/images/login_bg_page.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120vh;
+    width: 100%;
+}
+
+.innerBg {
+    background-image: url('../../../assets/images/Login_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.login-inner {
+    border: 2px solid rgb(190, 190, 204);
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.loginFields {
+    margin-top: 60px;
+
+}
+
+.loginFields input {
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.loginBtn {
+    background-color: #0367aa;
+    padding: 4px 50px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    border: 0;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+}
+
+
+.input-group-text {
+    padding: 0rem .75rem;
+    font-size: 16px;
+    color: #0367aa;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a8b5b4;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    bottom: -4px;
+    background-color: #d8dad8;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .remember label {
+      margin-bottom: 0;
+  }
+
+  .remember small {
+      font-size: 16px;
+      padding-left: 8px;
+  }
+
+  .loginFields a {
+    display: block;
+    text-align: center;
+    color: #9da1a8;
+    text-decoration: none;
+  }
+
+
+
+  /* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .innerBg {
+        height: 55vh;
+    }
+
+    .login_bg {
+        height: 65vh;
+    }
+
+    .login-sec {
+        height: 65vh;
+    }
+}
+
+
+/* Tablets, iPads (landscape) ---------- */
+/* @media screen and (min-width: 1024px){
+    .login_bg {
+        height: 85vh;
+
+    }
+
+    .innerBg {
+        height: 70vh;
+    }
+
+    .login-sec {
+        overflow: visible;
+        height: 100vh;
+    }
+} */
+
+
+/* Desktops and laptops ---------- */
+/* @media screen and (min-width: 1224px){
+    .login_bg {
+        height: 80vh;
+
+    }
+} */
+
+
+
